@@ -804,6 +804,28 @@ div::-webkit-scrollbar-thumb:horizontal {
     padding:20px;
     border-radius: 0px 20px 0px 0px;
 }
+.prompt {
+    width:70%;
+    height:auto;
+    border:8px solid #002346;
+    display: none;
+    position: absolute;
+    top:25%;
+    background-color:white;
+    z-index: 9999;
+    margin:0 15%;
+    text-align: center;
+    border-radius: 0px 30px 0px 0px;
+}
+.prompt .outline {
+    border: 3px solid #ffa71a;
+    margin:4px;
+    padding:20px;
+    border-radius: 0px 20px 0px 0px;
+}
+.settings.prompt .menuButton {
+    float:none;
+}
 .overlay {
     background-color:rgba(247,153,32, .8);
     height:100%;
