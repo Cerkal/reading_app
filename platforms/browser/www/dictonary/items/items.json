@@ -1,0 +1,44 @@
+{
+		"item001": {
+			"name": "Cowboy Hat",
+			"image": "img/dressup/hats/hat001.png",
+			"price": 1200,
+			"type": "hat"
+		},
+		"item002": {
+			"name": "Helmet",
+			"image": "img/dressup/hats/hat002.png",
+			"price": 1300,
+			"type": "hat"
+		},
+		"item003": {
+			"name": "Pirate Hat",
+			"image": "img/dressup/hats/hat003.png",
+			"price": 1100,
+			"type": "hat"
+		},
+		"item004": {
+			"name": "News Cap",
+			"image": "img/dressup/hats/hat004.png",
+			"price": 1100,
+			"type": "hat"
+		},
+		"item005": {
+			"name": "Sailor Cap",
+			"image": "img/dressup/hats/hat005.png",
+			"price": 1100,
+			"type": "hat"
+		},
+		"item006": {
+			"name": "Sun Hat",
+			"image": "img/dressup/hats/hat006.png",
+			"price": 1100,
+			"type": "hat"
+		},
+		"item007": {
+			"name": "Girly Hat",
+			"image": "img/dressup/hats/hat007.png",
+			"price": 1100,
+			"type": "hat"
+		}
+	}

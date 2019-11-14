@@ -1,0 +1,39 @@
+#gameCube {
+    width: 65%;
+    margin: 7.5% auto;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav h3 {
+	width: 500px;
+}
+
+#gameCube .letterBox {
+    font-size: 360%;
+}
+
+#gameCube .letterBox.len2 {
+    font-size: 360% !important;
+}
+
+#gameCube .letterBox.len3 {
+    font-size: 260% !important;
+}
+
+#myhero .char,
+#myhero .char {
+    background-size: 45% !important;
+}
+
+#items .item .image {
+    background-size: 20%;
+}
+.over {
+    margin:50px 0px;
+}
+.complete { 
+    height:60px;
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <script type="text/javascript" src="./script/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="./script/settings.js"></script>
+    <script type="text/javascript" src="./script/load.js"></script>
+    <script type="text/javascript" src="./script/boggle.js"></script>
+    <script type='application/javascript' src="./script/fastclick.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style/main.css">
+
+    <title>Rapid Response Reading</title>
+</head>
+ 
+<body>
+
+<!--IMPLETMENT FASTCLICK-->
+<script>
+$(function() {
+    FastClick.attach(document.body);
+});
+</script>
+ 
+<!--BOTTOM MENU-->
+        <div id="btmNav" style="display:none;">
+            <div class="menu1 home">Menu</div>
+            <div class="menu1 play">Play</div>
+            <div class="menu1 myhero">My Hero</div>
+        </div>
+<!--./BOTTOM MENU-->
+
+<!--THROUGHOUT BAR-->
+        <div id="nav" style="display:none;">
+            <img class="button" id="help" src='img/nav-help.png'/>
+            <div><h3 id='page_title'>Title</h3></div>
+            <img class="button" id="settings" src='img/nav-settings.png'/>
+        </div>
+<!--./THROUGHOUT BAR-->
+
+<!--GAMEOVER SCREEN-->
+        <div id="gameover" class="screen" style="display:none;">
+            <div class="logo"></div>
+            <div class="complete" style="display: none;">LEVEL COMPLETE!</div>
+            <div class="over"></div>
+            <!--<table id="wordsFound"></table>-->
+            <div class="playagain">
+                <div class="diff_select" style="display:none">
+                    <div class="startButton level_select">Level Select</div>
+                </div>
+
+                <div class="startButton play" style="display:none">Play</div>
+
+            </div>
+        </div>
+<!--./GAMEOVER SCREEN-->
+
+<!--MAIN SCREEN-->
+        <div id="main" class="screen" style="display:none;">
+            <div class="logo" style="display:none;"></div>
+            <div class="intro"></div>
+            <div class="waiting">Loading...</div>
+            
+            <div id="welcomePlay" class="startButton">Play</div>
+            <div id="welcomeHero" class="startButton">My Hero</div>
+            <div id="welcomeSettings" class="startButton">Settings</div>
+        </div>
+<!--./MAIN SCREEN-->
+
+<!--HERO SCREEN-->
+        <div id="myhero" class="screen" style="display:none;">
+            <!--BOTTOM MENU-->
+            <div id="btmNav" style="">
+                <div class="menu1 home">Menu</div>
+                <div class="menu1 play">Play</div>
+                <div class="menu1 items">Edit</div>
+            </div>
+            <!--./BOTTOM MENU-->
+            <div class="hat char"></div>
+            <div class="glove char"></div>
+            <div class="top char"></div>
+            <div class="pants char"></div>
+            <div class="shoe char"></div>
+            <div class="hero char"></div>
+            
+        </div>
+<!--./HERO SCREEN-->
+
+<!--LEVEL SELECT SCREEN-->
+        <div id="level_select" class="screen" style="display:none;">
+            <div class="scroller">
+            </div>
+           
+        </div>
+<!--./LEVEL SELECT SCREEN-->
+
+<!--ITEM MAIN SCREEN-->
+        <div id="items_menu" class="screen" style="display:none;">
+            <div class="male">
+                <div class="items_menu item" data-type="hat">HATS</div>
+                <div class="items_menu item" data-type="top">TOPS</div>
+                <div class="items_menu item" data-type="pants">PANTS</div>
+                <div class="items_menu item" data-type="shoe">SHOES</div>
+            </div>
+
+            <div class="female">
+                <div class="items_menu item" data-type="hat">HATS</div>
+                <div class="items_menu item" data-type="glove">GLOVES</div>
+                <div class="items_menu item" data-type="top">TOPS</div>
+                <div class="items_menu item" data-type="pants">PANTS</div>
+                <div class="items_menu item" data-type="shoe">SHOES</div>
+            </div>
+
+            <div id="btmNav" style="">
+                <div class="menu1 home">Menu</div>
+                <div class="menu1 play">Play</div>
+                <div class="menu1 hero">Hero</div>
+            </div>
+           
+        </div>
+<!--./HAT SCREEN-->
+
+<!--HAT SCREEN-->
+        <div id="items" class="screen" style="display:none;">
+
+            <div id="buy_prompt">
+                <div class="outline">
+                    <img src="" style="width: 100%;">
+                    <!--<div class="tempblue"></div>-->
+                    are you sure you want to buy <span class="title">ITEM NAME</span> for <span class="price">PRICE</span> points
+                    <p class="menuButton buy">Buy Now</p>
+                    <p class="menuButton cancel">Cancel</p>
+                </div>
+            </div>
+            <div class="overlay">
+            </div>
+
+            <div class="points"><span class="points_text">points</span></div>
+            <div class="rollthrough char">
+                <div class="item">
+                    <div class="image"></div>
+                    <div class="tempblue"></div>
+                    <span class="title">TITLE FOR ITEM</span><br/>
+                    <p class="menuButton">Buy Now</p><br/>
+                </div>
+                <div class="lastitem">
+                </div>
+            </div>
+
+            <div id="btmNav" style="">
+                <div class="menu1 home">Menu</div>
+                <div class="menu1 play">Play</div>
+                <div class="menu1 hero">Hero</div>
+            </div>
+           
+        </div>
+<!--./HAT SCREEN-->
+
+<!--PREGAME SCREEN-->
+        <div id="cover" class="screen" style="display:none;">
+            <div class="logo" style="display:none;"></div>
+            <div class="intro"></div>
+            <!--<div class="ajaxtest"></div>-->
+            
+            <div class="startButton easy">Easy</div>
+            <div class="startButton medium">Medium</div>
+            <div class="startButton hard">Hard</div>
+        </div>
+<!--./PREGAME SCREEN-->
+
+<!--GAME SCREEN-->
+        <div id="gameContainer" class="screen" style="display:none;">
+
+        <div id="display">
+            <div id="left">Level 1</div>
+            <div id="right"><div id="countdown">0:00</div></div>
+        </div>
+
+        <div id="infoPanel">
+            <div id="infoLine"></div>
+            <div id="mainBtn">End Word</div>
+        </div>
+        
+        <div id="gameCube" board="standard">
+            <div class="letterBox">R</div>
+            <div class="letterBox">A</div>
+            <div class="letterBox">P</div>
+            <div class="letterBox">I</div>
+            <div class="letterBox">D</div>
+            <div class="letterBox">R</div>
+            <div class="letterBox">E</div>
+            <div class="letterBox">A</div>
+            <div class="letterBox">D</div>
+            <div class="letterBox">I</div>
+            <div class="letterBox">N</div>
+            <div class="letterBox">G</div>
+            <div class="letterBox">A</div>
+            <div class="letterBox">P</div>
+            <div class="letterBox">P</div>
+            <div class="letterBox">!</div>
+        </div>
+        
+        <div id="score">
+            <div class="sub">SCORE: <span id="humanScore">0</span></div>
+            <div class="wordlist"> 
+                Found <span class="amount">0</span>/<span class="wordcount">0</span>
+            </div>
+        </div>
+
+    </div> 
+<!--./GAME SCREEN-->
+
+<!--SETTINGS SCREEN-->
+        <div id="settings_screen" class="screen" style="display: none">
+            <div class="menuButton">Effects</div>
+            <div class="slider"><img id="effects" src='img/slider_on.png'/></div>
+            <div class="menuButton">Music</div>
+            <div class="slider"><img id="music" src='img/slider_on.png'/></div>
+            <div class="menuButton race-click" id="race">Skin Color</div>
+            <div class="slider"><div class="race-display">Light</div></div>
+            <div class="menuButton reset-data">Reset Data</div>
+
+            <div class="settings prompt">
+                <div class="outline">
+                    Are you sure you want to reset all data?
+                    <p class="menuButton buy">Buy Now</p>
+                    <p class="menuButton cancel">Cancel</p>
+                </div>
+            </div>
+            <div class="overlay">
+            </div>
+
+            <!--
+            <div id="volSlider">
+                <input name="slider" id="slider" value="0" min="0" max="100" data-highlight="true" type="range">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+            <div id="vol_meter">
+                <div class="menuButton" id="vol_meter_fg" style='width:100%'></div>
+                <div class="menuButton" id="vol_meter_bg" style='width:100%'></div>
+            </div>
+            -->
+            
+            <div class="menuButton" id="uploadtoteacher" style='width:100%'>Upload to teacher</div>
+            <div style="clear:both;"></div>
+            <p class="upload_success" style="display: none; text-align: center;">Upload Successful!</p>
+        </div>
+<!--./SETTINGS SCREEN-->
+
+<!--ACCOUNT SCREEN-->
+        <div class="submit" style="display:none;">Submit</div>
+        <div id="account" class="screen" style="display:none;">
+            <div class="logo" style="margin-top:0px"></div>
+            <input id="first_name_input" value="" placeholder="First Name"/><br/>
+            <input id="last_name_input" value="" placeholder="Last Name"/><br/>
+            <input id="class_input"  value="" type="number" placeholder="Class Code"/><br/>
+            <div class="error"></div>
+        </div>
+        <div id="chooseHero" class="screen" style="display:none;">
+            <div class="menuButton race-click race-btn" id="race" style="margin:20px;">Skin Color</div>
+            <div class="clicker-female"></div>
+            <div class="clicker-male"></div>
+        </div>
+<!--./ACCOUNT SCREEN-->
+
+    <script type="text/javascript" src="script/cordova.js"></script>
+    <script type="text/javascript" src="script/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

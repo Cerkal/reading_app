@@ -1,0 +1,13 @@
+{
+  "name": "com.rapidresponsereading.app",
+  "version": "1.0.0",
+  "displayName": "Rapid Reading",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-ios": "^4.0.0"
+  }
+}

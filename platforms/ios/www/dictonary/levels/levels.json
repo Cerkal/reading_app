@@ -1,0 +1,1223 @@
+    {
+    "level001": {
+        "level": "1",
+        "level_sub": "a",
+        "letter_sounds": "c,o,a,d,m,l,h,t",
+        "board": [
+            "C", "O", "T", "D",
+            "O", "T", "O", "H",
+            "G", "O", "T", "O",
+            "G", "L", "O", "G"
+        ],
+        "list": ["cot", "hog", "tot", "got", "hot", "cog", "log"],
+        "bonus": ["dot", "lot", "tog", "tod"]
+    },
+    "level002": {
+        "level": "1",
+        "level_sub": "b",
+        "board": [
+            "C", "A", "T", "T",
+            "M", "A", "A", "A",
+            "M", "A", "H", "G",
+            "L", "A", "D", "A"
+        ],
+        "list": ["cat", "tag", "dam", "mad", "lad", "at", "am", "had", "mat", "ham", "hat"],
+        "bonus": ["tam"]
+    },
+    "level003": {
+        "level": "1",
+        "level_sub": "c",
+        "board": [
+            "D", "A", "M", "H",
+            "A", "O", "A", "L",
+            "H", "O", "T", "O",
+            "C", "T", "A", "G"
+        ],
+        "list": ["dot", "dam", "mat", "tam", "mad", "had", "log", "tag", "cot"],
+        "bonus": ["ham", "lot", "tog", "tot", "hot"]
+    },
+    "level004": {
+        "level": "2",
+        "level_sub": "a",
+        "letter_sounds": "i",
+        "board": [
+            "L", "H", "D", "D",
+            "H", "I", "M", "I",
+            "M", "T", "D", "D",
+            "D", "I", "G", "I"
+        ],
+        "list": ["him", "hit", "it", "dig", "mid", "lid"],
+        "bonus": ["tim", "hid", "dim", "did"]
+    },  
+    "level005": {
+        "level": "2",
+        "level_sub": "b", 
+        "board": [
+            "C", "O", "D", "H",
+            "M", "A", "T", "A",
+            "D", "A", "L", "M",
+            "H", "A", "D", "A"
+        ],
+        "list": ["dad", "at", "mad", "mat", "lad", "am", "ham", "hat", "cad", "tam", "had", "cot"],
+        "bonus": ["cat","dam"]
+    },   
+    "level006": {
+        "level": "2",
+        "level_sub": "c",
+        "board": [
+            "O", "T", "O", "D",
+            "G", "O", "T", "O",
+            "O", "L", "O", "C",
+            "H", "O", "T", "O"
+        ],
+        "list": ["hot","cod","got","hog","tod","dot","lot","tog","tot"],
+        "bonus": ["cot","log"]
+    },
+    "level007": {
+        "level": "3",
+        "level_sub": "a",
+        "letter_sounds": "j,k,p",
+        "board": [
+            "J", "I", "G", "I",
+            "K", "I", "D", "P",
+            "H", "I", "P", "I",
+            "L", "D", "T", "L"
+        ],
+        "list": ["jig","kit","kid","hip","lip","lid","pit"],
+        "bonus": ["dip","tip","hid"]
+    },
+    "level008": {
+        "level": "3",
+        "level_sub": "b",
+        "board": [
+            "A", "J", "D", "P",
+            "L", "A", "G", "A",
+            "P", "M", "A", "T",
+            "C", "A", "P", "A"
+        ],
+        "list": ["jam","jag","pat","tap","gap","cap","mat","pad","ad","am","tam","at"],
+        "bonus": []
+    },
+    "level009": {
+        "level": "3",
+        "level_sub": "c",
+        "board": [
+            "L", "J", "O", "G",
+            "J", "O", "T", "O",
+            "D", "H", "O", "P",
+            "C", "O", "P", "I"
+        ],
+        "list": ["jog","jot","pot","top","cop","dot","cod"],
+        "bonus": ["got","pop","tog","lot","hot","hop","pip"]
+    },
+    "level010": {
+        "level": "4",
+        "level_sub": "a",
+        "letter_sounds": "ch,u",
+        "board": [
+            "CH", "O", "P", "L",
+            "U", "P", "U", "G",
+            "G", "U", "T", "U",
+            "C", "H", "U", "M"
+        ],
+        "list": ["chop","chug","chum","tug","mug","gum","hum","up","cut","lug"],
+        "bonus": ["pop","pug","hut","hug"]
+    },
+    "level011": {
+        "level": "4",
+        "level_sub": "b",
+        "board": [
+            "CH", "A", "P", "A",
+            "A", "M", "U", "D",
+            "T", "U", "G", "U",
+            "G", "L", "U", "G"
+        ],
+        "list": ["chap","chat","tug","mud","pug","gut","lug","am","dug","at"],
+        "bonus": ["pad","pam","mug","gum","amp","tam","mat"]
+    },
+    "level012": {
+        "level": "4",
+        "level_sub": "c",
+        "board": [
+            "H", "CH", "U", "M",
+            "K", "I", "T", "U",
+            "U", "P", "U", "G",
+            "D", "U", "G", "M"
+        ],
+        "list": ["chum","chip","kit","up","pug","it","dug","tug","gut","gum","mug"],
+        "bonus": ["hip","much","pit","tip","hit"]
+    },
+    "level013": {
+        "level": "5",
+        "level_sub": "a",
+        "letter_sounds": "b",
+        "board": [
+            "M", "T", "C", "L",
+            "B", "A", "G", "A",
+            "A", "B", "A", "D",
+            "J", "A", "M", "M"
+        ],
+        "list": ["bag","tab","bad","jam","jab","bat","mag","am","lad","gab"],
+        "bonus": ["cad","cab","mad","dam","mat","pam","pad"]
+    },
+    "level014": {
+        "level": "5",
+        "level_sub": "b",
+        "board": [
+            "B", "O", "G", "O",
+            "I", "B", "I", "T",
+            "L", "O", "B", "O",
+            "C", "J", "I", "D"
+        ],
+        "list": ["bog","gob","bit","job","dot","tod","it","tog","lob"],
+        "bonus": ["got","bib","bid","bob","cob","big"]
+    },
+    "level015": {
+        "level": "5",
+        "level_sub": "c",
+        "board": [
+            "B", "B", "U", "D",
+            "B", "U", "T", "U",
+            "M", "G", "U", "M",
+            "P", "U", "B", "G"
+        ],
+        "list": ["bud","but","tub","pub","bug","mud","mug","gum","bum"],
+        "bonus": ["tug","gut"]
+    },
+    "level016": {
+        "level": "6",
+        "level_sub": "a",
+        "letter_sounds": "r,f",
+        "board": [
+            "F", "A", "T", "F",
+            "R", "F", "A", "A",
+            "A", "D", "R", "T",
+            "G", "R", "A", "M"
+        ],
+        "list": ["fat","far","fad","am","ad","ram","rat","rag","at"],
+        "bonus": ["tad"]
+    },
+    "level017": {
+        "level": "6",
+        "level_sub": "b",
+        "board": [
+            "R", "I", "B", "M",
+            "I", "G", "I", "F",
+            "P", "R", "F", "I",
+            "N", "I", "H", "T"
+        ],
+        "list": ["rib","rip","rim","fig","nip","pin"],
+        "bonus": ["hit","hip","rig","fit","fib","big"]
+    },
+    "level018": {
+        "level": "6",
+        "level_sub": "c",
+        "board": [
+            "R", "O", "T", "F",
+            "B", "U", "U", "O",
+            "O", "B", "R", "G",
+            "B", "R", "R", "U"
+        ],
+        "list": ["rot","rub","bob","fog"],
+        "bonus": ["got","tug","rut","but","rob","tub","rug"]
+    },
+    "level019": {
+        "level": "7",
+        "level_sub": "a",
+        "letter_sounds": "n,e,s",
+        "board": [
+            "D", "E", "N", "S",
+            "N", "M", "E", "H",
+            "E", "B", "P", "T",
+            "T", "E", "N", "E"
+        ],
+        "list": ["ten","net","hem","pet","hen"],
+        "bonus": ["bet","set","den","pen","ben"]
+    },
+    "level020": {
+        "level": "7",
+        "level_sub": "b",
+        "board": [
+            "S", "I", "T", "B",
+            "S", "G", "E", "T",
+            "A", "N", "N", "A",
+            "D", "E", "N", "S"
+        ],
+        "list": ["sit","net","den","at","an","sat","get"],
+        "bonus": ["nat","bet","tan","ten","ned","sad","dan","sag","beg"]
+    },
+    "level021": {
+        "level": "7",
+        "level_sub": "c",
+        "board": [
+            "S", "S", "E", "T",
+            "U", "O", "E", "N",
+            "M", "N", "U", "H",
+            "E", "P", "O", "T"
+        ],
+        "list": ["set","son","sum","sun","net","ten"],
+        "bonus": ["pen","men","hen","pun","pot","hot"]
+    },
+    "level022": {
+        "level": "8",
+        "level_sub": "a",
+        "letter_sounds": "sh",
+        "board": [
+            "M", "E", "SH", "H",
+            "U", "G", "A", "SH",
+            "SH", "A", "M", "I",
+            "B", "SH", "A", "D"
+        ],
+        "list": ["mesh","dish","shag","sham","mash","gash","mush","dash"],
+        "bonus": ["meg","mid","mad","am","mag","mug","bash"]
+    },
+    "level023": {
+        "level": "8",
+        "level_sub": "b",
+        "board": [
+            "F", "L", "A", "SH",
+            "SH", "I", "P", "O",
+            "I", "SH", "U", "T",
+            "N", "U", "SH", "P"
+        ],
+        "list": ["flash","fish","flip","flap","lap","lash","ship","shin","shot","put","push","shut","shun","pot","up"],
+        "bonus": [""]
+    },
+    "level024": {
+        "level": "8",
+        "level_sub": "c",
+        "board": [
+            "B", "S", "A", "SH",
+            "R", "A", "SH", "O",
+            "U", "SH", "O", "J",
+            "SH", "I", "P", "U"
+        ],
+        "list": ["ship","josh","rash","rush","shop"],
+        "bonus": ["bash","sash","up","shush","ash"]
+    },
+    "level025": {
+        "level": "9",
+        "level_sub": "a",
+        "letter_sounds": "th,w,wh",
+        "board": [
+            "W", "TH", "A", "B",
+            "WH", "I", "M", "E",
+            "O", "N", "I", "W",
+            "P", "I", "WH", "N"
+        ],
+        "list": ["thin","bath","whop","whip","web","with","pin"],
+        "bonus": ["bam","win","whim","on","in"]
+    },
+    "level026": {
+        "level": "9",
+        "level_sub": "b",
+        "board": [
+            "WH", "I", "CH", "U",
+            "I", "P", "I", "G",
+            "SH", "W", "A", "Y",
+            "I", "M", "I", "TH"
+        ],
+        "list": ["pig","with","path","whish","which","wag","chip"],
+        "bonus": ["whip","ship","wig","chug","shim"]
+    },
+    "level027": {
+        "level": "9",
+        "level_sub": "c",
+        "board": [
+            "WH", "W", "E", "T",
+            "SH", "E", "N", "A",
+            "N", "D", "U", "TH",
+            "I", "W", "A", "G"
+        ],
+        "list": ["when","wed","wet","wag","that","went"],
+        "bonus": ["den","thug","nat","ten","win","din","net","shed"]
+    },
+    "level028": {
+        "level": "10",
+        "level_sub": "a",
+        "letter_sounds": "y,v,x",
+        "board": [
+            "H", "V", "E", "T",
+            "Y", "I", "T", "E",
+            "O", "M", "A", "Y",
+            "N", "A", "V", "P"
+        ],
+        "list": ["van","vet","yam","yon","vat","yet","vim"],
+        "bonus": ["tim","mat","am","yap","pat","tap","man","him"]
+    },
+    "level029": {
+        "level": "10",
+        "level_sub": "b",
+        "board": [
+            "F", "I", "X", "W",
+            "L", "O", "X", "A",
+            "A", "S", "X", "f",
+            "X", "I", "M", "A"
+        ],
+        "list": ["fix","ax","fax","wax","lox","lax","ox","mix"],
+        "bonus": ["max","six"]
+    },
+    "level030": {
+        "level": "10",
+        "level_sub": "c",
+        "board": [
+            "B", "O", "X", "Y",
+            "Y", "I", "A", "M",
+            "S", "P", "T", "A",
+            "Y", "I", "M", "X"
+        ],
+        "list": ["pat","yap","yip","bit","box","tax","six","max","am"],
+        "bonus": ["sip","tip","mat","tam","yam","pit"]
+    },
+    "level031": {
+        "level": "11",
+        "level_sub": "a",
+        "letter_sounds": "z,th,qu",
+        "board": [
+            "X", "O", "N", "W",
+            "P", "TH", "A", "T",
+            "I", "X", "TH", "A",
+            "Z", "I", "WH", "X"
+        ],
+        "list": ["that","than","wax","pox","pix"],
+        "bonus": ["whiz","zip"]
+    },
+    "level032": {
+        "level": "11",
+        "level_sub": "b",
+        "board": [
+            "W", "QU", "I", "Z",
+            "TH", "I", "S", "T",
+            "U", "T", "I", "A",
+            "S", "A", "X", "X"
+        ],
+        "list": ["with","quiz","this","sit","thus","tis","tax","six","is","ax"],
+        "bonus": [""]
+    },
+    "level033": {
+        "level": "11",
+        "level_sub": "c",
+        "board": [
+            "W", "I", "TH", "N",
+            "I", "TH", "E", "M",
+            "TH", "A", "N", "A",
+            "X", "W", "A", "X"
+        ],
+        "list": ["with","them","wax"],
+        "bonus": ["man","max","ax","than","then"]
+    },
+    "level034": {
+        "level": "12",
+        "level_sub": "a",
+        "letter_sounds": "initial blends",
+        "board": [
+            "FL", "FL", "P", "SL",
+            "T", "A", "A", "O",
+            "O", "B", "G", "P",
+            "SL", "A", "P", "I"
+        ],
+        "list": ["flab","flag","flap","slab","slot","slop","slap"],
+        "bonus": ["flat","slob","pop","slog"]
+    },
+    "level035": {
+        "level": "12",
+        "level_sub": "b",
+        "board": [
+            "GR", "TR", "M", "GR",
+            "DR", "I", "D", "I",
+            "U", "P", "O", "P",
+            "M", "I", "TR", "A"
+        ],
+        "list": ["grid","trip","drip","drum","trim","grim","grip","dip","dim","trap","pop","pod"],
+        "bonus": [""]
+    },
+    "level036": {
+        "level": "12",
+        "level_sub": "c",
+        "board": [
+            "M", "SK", "SN", "ST",
+            "I", "SP", "I", "O",
+            "SW", "O", "P", "P",
+            "ST", "T", "I", "SN"
+        ],
+        "list": ["spot","swim","snip","pop","pot","tip","post","skip","stop","swop"],
+        "bonus": [""]
+    },
+    "level037": {
+        "level": "13",
+        "level_sub": "a",
+        "letter_sounds": "final blends",
+        "board": [
+            "ST", "L", "O", "ST",
+            "F", "A", "ST", "E",
+            "I", "ST", "E", "P",
+            "ST", "A", "V", "ST"
+        ],
+        "list": ["vest", "fist","fast","lost","last","vast","step","pest","vast"],
+        "bonus": [""]
+    },
+    "level038": {
+        "level": "13",
+        "level_sub": "b",
+        "board": [
+            "M", "L", "E", "ND",
+            "ND", "E", "A", "S",
+            "E", "NT", "E", "ND",
+            "B", "NT", "U", "R"
+        ],
+        "list": ["runt","land","send","lent","sent","meant","bent","mend","sand","lend","end","bend"],
+        "bonus": [""]
+    },
+    "level039": {
+        "level": "13",
+        "level_sub": "c",
+        "board": [
+            "J", "B", "A", "C",
+            "TH", "U", "MD", "A",
+            "I", "MP", "ST", "MP",
+            "CH", "L", "A", "MP"
+        ],
+        "list": ["camp","chimp","jump","lamp","limp","thump","bump","cab","cast","last","stamp"],
+        "bonus": [""]
+    },
+    "level040": {
+        "level": "14",
+        "level_sub": "a",
+        "letter_sounds": "silent 'e'",
+        "board": [
+            "AKE", "R", "T", "AKE",
+            "F", "QU", "M", "B",
+            "J", "P", "W", "L",
+            "CH", "OKE", "S", "AKE"
+        ],
+        "list": ["rake","quake","fake","wake","sake","take","make","bake","lake","joke","poke","choke"],
+        "bonus": [""]
+    },
+    "level041": {
+        "level": "14",
+        "level_sub": "b",
+        "board": [
+            "R", "AKE", "G", "AME",
+            "M", "H", "L", "T",
+            "D", "ATE", "N", "AME",
+            "F", "R", "S", "D"
+        ],
+        "list": ["rake","make","lake","game","lame","name","same","dame","tame","date","hate","fate"],
+        "bonus": [""]
+    },
+    "level042": {
+        "level": "14",
+        "level_sub": "c",
+        "board": [
+            "B", "ONE", "T", "IDE",
+            "C", "L", "S", "H",
+            "G", "AVE", "L", "INE",
+            "R", "P", "F", "N"
+        ],
+        "list": ["bone","cone","lone","gave","rave","pave","tide","side","hide","line","fine","nine"],
+        "bonus": [""]
+    },
+    "level043": {
+        "level": "15",
+        "level_sub": "a",
+        "letter_sounds": "ck",
+        "board": [
+            "U", "CK", "H", "CK",
+            "L", "B", "A", "CK",
+            "O", "T", "CK", "S",
+            "CK", "U", "I", "O"
+        ],
+        "list": ["sick","buck","lock","tuck","tick","tock","sock","hack","back","sack","tack","luck"],
+        "bonus": [""]
+    },
+    "level044": {
+        "level": "15",
+        "level_sub": "b",
+        "board": [
+            "QU", "CK", "I", "P",
+            "I", "TR", "U", "A",
+            "ST", "CK", "A", "CK",
+            "U", "SH", "BL", "QU"
+        ],
+        "list": ["stuck","puck","pack","track","shack","black","quack","quick","trick","pick","stick"],
+        "bonus": [""]
+    },
+    "level045": {
+        "level": "15",
+        "level_sub": "c",
+        "board": [
+            "QU", "CR", "U", "CH",
+            "SM", "A", "CK", "D",
+            "L", "CK", "U", "TR",
+            "CH", "I", "CL", "P"
+        ],
+        "list": ["lick","click","chick","duck","puck","chuck","truck","cluck","smack","crack","quack"],
+        "bonus": [""]
+    },
+    "level046": {
+        "level": "16",
+        "level_sub": "a",
+        "letter_sounds": "ea",
+        "board": [
+            "R", "EA", "T", "EA",
+            "H", "L", "M", "S",
+            "R", "EA", "K", "EA",
+            "W", "P", "B", "T"
+        ],
+        "list": ["meak","team","beat","heal","teal","meal","real","heap","leap","reap","weak","eat","heat","peak","seat","seam","leak","beak"],
+        "bonus": [""]
+    },
+    "level047": {
+        "level": "16",
+        "level_sub": "b",
+        "board": [
+            "ST", "EA", "CH", "EA",
+            "M", "B", "P", "T",
+            "EA", "L", "EA", "M",
+            "ST", "Y", "N", "CR"
+        ],
+        "list": ["cheat","teach","each","peach","cheap","steal","beast","steam","east","yeast","cream","least","leap","lean","beam","team","meat","meal"],
+        "bonus": [""]
+    },
+    "level048": {
+        "level": "16",
+        "level_sub": "c",
+        "board": [
+            "WH", "EA", "M", "EA",
+            "TR", "T", "ST", "DR",
+            "SN", "EA", "P", "EA",
+            "SP", "K", "CH", "R"
+        ],
+        "list": ["wheat","treat","dream","sneak","pea","meat","team","steam","speak","reap","reach","east","teak","cheap","each"],
+        "bonus": [""]
+    },
+    "level049": {
+        "level": "17",
+        "level_sub": "a",
+        "letter_sounds": "oa",
+        "board": [
+            "L", "OA", "T", "OA",
+            "F", "G", "C", "B",
+            "OA", "R", "OA", "L",
+            "M", "N", "D", "T"
+        ],
+        "list": ["boat", "coal","load","oat","goal","toad","goat","load","foam","loan","coat","roam","moan","road"],
+        "bonus": [""]
+    },
+    "level050": {
+        "level": "17",
+        "level_sub": "b",
+        "board": [
+            "OA", "ST", "OA", "K",
+            "T", "B", "CR", "C",
+            "FL", "OA", "N", "P",
+            "M", "GR", "S", "OA"
+        ],
+        "list": ["oak","coast","toast","boast","boat","croak","float","groan","moan","soap","moat"],
+        "bonus": [""]
+    },
+    "level051": {
+        "level": "17",
+        "level_sub": "c",
+        "board": [
+            "OA", "T", "CH", "EA",
+            "B", "G", "B", "T",
+            "R", "N", "TR", "EA",
+            "OA", "M", "EA", "T"
+        ],
+        "list": ["boat","goat","roam","moan","teach","cheat","beat","mean","team","meat","neat","eat","beach","treat"],
+        "bonus": [""]
+    },
+    "level052": {
+        "level": "18",
+        "level_sub": "a",
+        "letter_sounds": "ai",
+        "board": [
+            "R", "N", "P", "AI",
+            "D", "AI", "M", "L",
+            "F", "L", "T", "AI",
+            "SN", "AI", "B", "N"
+        ],
+        "list": ["rail","bail","pail","mail","nail","fail","tail","aim","paid","rain","snail","bait"],
+        "bonus": [""]
+    },
+    "level053": {
+        "level": "18",
+        "level_sub": "b",
+        "board": [
+            "GR", "N", "CH", "AI",
+            "TR", "AI", "DR", "N",
+            "SL", "PL", "D", "AI",
+            "ST", "AI", "N", "BR"
+        ],
+        "list": ["brain","drain","grain","slain","plain","stain","chain","braid","train"],
+        "bonus": [""]
+    },
+    "level054": {
+        "level": "18",
+        "level_sub": "c",
+        "board": [
+            "N", "AI", "GR", "OA",
+            "TR", "BR", "M", "N",
+            "AI", "EA", "EA", "EA",
+            "D", "N", "B", "L"
+        ],
+        "list": ["train","brain","main","braid","grain","aid","mean","bean","beam","lean","groan","moan","mean"],
+        "bonus": [""]
+    },
+    "level055": {
+        "level": "19",
+        "level_sub": "a",
+        "letter_sounds": "ee",
+        "board": [
+            "L", "EE", "F", "T",
+            "D", "H", "M", "EE",
+            "EE", "W", "S", "B",
+            "N", "P", "EE", "K"
+        ],
+        "list": ["meet","fee","bee","wee","heed","seem","feel","week","beef","need","keep","eel","weed","feet","peek","feed","seek","weep","deep","see"],
+        "bonus": [""]
+    },
+    "level056": {
+        "level": "19",
+        "level_sub": "b",
+        "board": [
+            "EE", "CH", "FL", "TR",
+            "SP", "QU", "GR", "EE",
+            "BL", "EE", "D", "T",
+            "S", "N", "SW", "EE"
+        ],
+        "list": ["tee","seen","flee","speech","greed","speed","need","queen","seed","tree","sweet","bleed"], 
+        "bonus": [""]
+    },
+    "level057": {
+        "level": "19",
+        "level_sub": "c",
+        "board": [
+            "SL", "P", "R", "B",
+            "ST", "EE", "EA", "L",
+            "C", "ST", "D", "N",
+            "T", "OA", "BR", "AI"
+        ],
+        "list": ["sleep","deep","bean","lead","beast","east","bead","least","lean","read","real","lead","braid","brain","toast","coast","steep"],
+        "bonus": [""]
+    },
+    "level058": {
+        "level": "20",
+        "level_sub": "a",
+        "letter_sounds": "oe,ay",
+        "board": [
+            "P", "AY", "S", "AY",
+            "M", "H", "L", "R",
+            "T", "J", "AY", "W",
+            "OE", "D", "G", "B"
+        ],
+        "list": ["gay","jay","bay","day","way","ray","pay","may","hay","say","lay","toe"],
+        "bonus": [""]
+    },
+    "level059": {
+        "level": "20",
+        "level_sub": "b",
+        "board": [
+            "FR", "AY", "GR", "AY",
+            "SW", "CL", "PL", "ST",
+            "F", "H", "AY", "TR",
+            "OE", "W", "PR", "BR"
+        ],
+        "list": ["sway","clay","hay","way","gray","play","fray","tray","bray","pray","woe","hoe","foe"],
+        "bonus": [""]
+    },
+    "level060": {
+        "level": "20",
+        "level_sub": "c",
+        "board": [
+            "AY", "T", "EE", "FL",
+            "BR", "D", "EA", "B",
+            "N", "AI", "OE", "OA",
+            "OA", "M", "EE", "T"
+        ],
+        "list": ["day","doe","meet","bray","moe","moan","main","tee","brain","braid","flee","tea","boat","bead","maid","doe","flea"],
+        "bonus": [""]
+    },
+    "level061": {
+        "level": "21",
+        "level_sub": "a",
+        "letter_sounds": "er",
+        "board": [
+            "H", "ER", "D", "CH",
+            "N", "F", "ER", "N",
+            "K", "ER", "P", "ER",
+            "J", "S", "K", "ST"
+        ],
+        "list": ["fern","her","perch","perk","stern","jerk","herd","nerd","herd"],
+        "bonus": [""]
+    },
+    "level062": {
+        "level": "21",
+        "level_sub": "b",
+        "board": [
+            "TER", "SIS", "SIN", "GER",
+            "MONS", "HUN", "FIN", "LIN",
+            "MAS", "SIF", "SHEL", "POT",
+            "EN", "TER", "WIN", "TER"
+        ],
+        "list": ["singer","linger","finger","master","winter","enter","sister","hunter","monster","sifter","shelter","potter"],
+        "bonus": [""]
+    },
+    "level063": {
+        "level": "21",
+        "level_sub": "c",
+        "board": [
+            "P", "ER", "CH", "EA",
+            "EE", "AI", "AI", "P",
+            "K", "EE", "N", "OE",
+            "OA", "S", "EA", "T"
+        ],
+        "list": ["perch","cheap","peek","soak","seat","neat","poe","toe","chain","keen","see","pain"],
+        "bonus": [""]
+    },
+    "level064": {
+        "level": "22",
+        "level_sub": "a",
+        "letter_sounds": "ir",
+        "board": [
+            "SW", "IR", "L", "TH",
+            "D", "B", "IR", "WH",
+            "IR", "SK", "G", "ST",
+            "T", "IR", "SH", "IR"
+        ],
+        "list": ["dirt","swirl","stir","bird","girl","whirl","shirt","birth","thirst","skirt"],
+        "bonus": [""]
+    },
+    "level065": {
+        "level": "22",
+        "level_sub": "b",
+        "board": [
+            "D", "F", "IR", "M",
+            "B", "IR", "CH", "ST",
+            "TW", "SM", "IR", "K",
+            "IR", "L", "P", "B"
+        ],
+        "list": ["smirk","twirl","birch","chirp","firm","first","bird"],
+        "bonus": [""]
+    },
+    "level066": {
+        "level": "22",
+        "level_sub": "c",
+        "board": [
+            "P", "ER", "CH", "IR",
+            "F", "IR", "ST", "N",
+            "B", "IR", "D", "ER",
+            "TH", "H", "ER", "ST"
+        ],
+        "list": ["birch","perch","first","thirst","third","bird","stern","fir","her","nerd","herd","stir"],
+        "bonus": [""]
+    },
+    "level067": {
+        "level": "23",
+        "level_sub": "a",
+        "letter_sounds": "ur",
+        "board": [
+            "B", "UR", "P", "UR",
+            "C", "N", "H", "L",
+            "T", "UR", "K", "UR",
+            "H", "CH", "UR", "CH"
+        ],
+        "list": ["churn","burp","burn","hurt","purl","lurk","hurl","curb","turn","turk","church"],
+        "bonus": [""]
+    },
+    "level068": {
+        "level": "23",
+        "level_sub": "b",
+        "board": [
+            "BL", "UR", "ST", "UR",
+            "SL", "UR", "P", "F",
+            "B", "L", "T", "UR",
+            "C", "UR", "D", "N"
+        ],
+        "list": ["slurp","cur","fur","blur","purl","blurt","curl","turn","slur","burst","curd"],
+        "bonus": [""]
+    },
+    "level069": {
+        "level": "23",
+        "level_sub": "c",
+        "board": [
+            "CH", "IR", "P", "H",
+            "SL", "UR", "B", "ER",
+            "L", "UR", "N", "D",
+            "C", "ST", "ER", "N"
+        ],
+        "list": ["churn","chirp","purl","her","slur","curb","herd","stern","nerd","burn","cur"],
+        "bonus": [""]
+    },
+    "level070": {
+        "level": "24",
+        "level_sub": "a",
+        "letter_sounds": "ow",
+        "board": [
+            "PR", "OW", "L", "OW",
+            "SC", "GR", "H", "F",
+            "CR", "OW", "D", "N",
+            "N", "DR", "BR", "OW"
+        ],
+        "list": ["prowl","drown","owl","fowl","howl","scowl","growl","crowd","brown","brow","down","now"],
+        "bonus": [""]
+    },
+    "level071": {
+        "level": "24",
+        "level_sub": "b",
+        "board": [
+            "CR", "OW", "N", "OW",
+            "CL", "FR", "BR", "T",
+            "OW", "C", "PL", "S",
+            "H", "L", "N", "OW"
+        ],
+        "list": ["crown","howl","clown","frown","town","cow","plow","sow","now","how","brow","brown"],
+        "bonus": [""]
+    },
+    "level072": {
+        "level": "24",
+        "level_sub": "c",
+        "board": [
+            "V", "ER", "B", "ER",
+            "CH", "D", "IR", "T",
+            "UR", "IR", "OW", "H",
+            "CH", "N", "P", "L"
+        ],
+        "list": ["town","dirt","verb","church","chirp","how","owl","dowl","bird","now","pow","howl","Bert"],
+        "bonus": [""]
+    },
+    "level073": {
+        "level": "25",
+        "level_sub": "a",
+        "letter_sounds": "ou",
+        "board": [
+            "ST", "OU", "T", "OU",
+            "SC", "SP", "SH", "TR",
+            "T", "CL", "OU", "D",
+            "OU", "P", "PR", "L"
+        ],
+        "list": ["stout","out","spout","shout","scout","loud","proud","cloud","pout","trout"],
+        "bonus": [""]
+    },
+    "level074": {
+        "level": "25",
+        "level_sub": "b",
+        "board": [
+            "CR", "OU", "GR", "OU",
+            "C", "CH", "P", "ND",
+            "OU", "M", "OU", "R",
+            "NT", "C", "F", "B"
+        ],
+        "list": ["grouch","crouch","ouch","pouch","found","mound","pound","round","ground","bound","couch","mount"],
+        "bonus": [""]
+    },
+    "level075": {
+        "level": "25",
+        "level_sub": "c",
+        "board": [
+            "S", "OU", "ND", "OU",
+            "BR", "OU", "D", "M",
+            "P", "OW", "OW", "OU",
+            "CR", "OW", "N", "TH"
+        ],
+        "list": ["mound","pow","sound","crowd","down","pound","mouth","brown","brow","crown"],
+        "bonus": [""]
+    },
+    "level076": {
+        "level": "26",
+        "level_sub": "a",
+        "letter_sounds": "ar",
+        "board": [
+            "T", "AR", "T", "SH",
+            "C", "ST", "AR", "K",
+            "T", "CH", "SP", "D",
+            "AR", "M", "AR", "K"
+        ],
+        "list": ["star","start","dart","tart","art","mark","cart","chart","shark","stark","ark","spark","spar","dark","march","charm"],
+        "bonus": [""]
+    },
+    "level077": {
+        "level": "26",
+        "level_sub": "b",
+        "board": [
+            "P", "AR", "CH", "AR",
+            "F", "H", "M", "SH",
+            "AR", "B", "AR", "N",
+            "P", "SH", "D", "Y"
+        ],
+        "list": ["far","par","marsh","yarn","hard","harm","sharp","harsh","arm","harm","charm","parch","arch","farm","darn","harp","barn","march","yard"],
+        "bonus": [""]
+    },
+    "level078": {
+        "level": "26",
+        "level_sub": "c",
+        "board": [
+            "T", "AR", "ER", "N",
+            "C", "ST", "H", "F",
+            "B", "IR", "UR", "N",
+            "ST", "D", "CH", "B"
+        ],
+        "list": ["tar","car","star","stern","fern","her","nerf","bird","birch","stir","churn","blur","church"],
+        "bonus": [""]
+    },
+    "level079": {
+        "level": "27",
+        "level_sub": "a",
+        "letter_sounds": "or",
+        "board": [
+            "SP", "OR", "T", "OR",
+            "SP", "F", "SN", "S",
+            "P", "OR", "OR", "C",
+            "ST", "K", "D", "N"
+        ],
+        "list": ["or","sort","fort","for","nor","corn","sport","pork","stork","cord","spor","snort"],
+        "bonus": [""]
+    },
+    "level080": {
+        "level": "27",
+        "level_sub": "b",
+        "board": [
+            "T", "SW", "F", "N",
+            "P", "OR", "B", "OR",
+            "SC", "N", "CH", "TH",
+            "ST", "OR", "N", "OR"
+        ],
+        "list": ["nor","thorn","north","forth","sworn","born","scorch"],
+        "bonus": [""]
+    },
+    "level081": {
+        "level": "27",
+        "level_sub": "c",
+        "board": [
+            "AR", "SM", "OR", "N",
+            "B", "T", "F", "H",
+            "OR", "F", "OR", "N",
+            "N", "OR", "TH", "OR"
+        ],
+        "list": ["north","forth","born","nor","bar","smart","torn","fort","horn","thor"],
+        "bonus": [""]
+    },
+    "level082": {
+        "level": "28",
+        "level_sub": "a",
+        "letter_sounds": "oo",
+        "board": [
+            "ST", "OO", "L", "OO",
+            "B", "R", "P", "SW",
+            "PR", "OO", "L", "OO",
+            "Z", "F", "T", "SP"
+        ],
+        "list": ["too","zoo","fool","pool","stool","tool","swoop","stoop","proof","roof","loot","spool","boo"],
+        "bonus": [""]
+    },
+    "level083": {
+        "level": "28",
+        "level_sub": "b",
+        "board": [
+            "SC", "H", "L", "SC",
+            "DR", "OO", "P", "OO",
+            "GR", "Y", "GL", "BL",
+            "DR", "OO", "M", "OO"
+        ],
+        "list": ["scoop","loop","gloom","droop","groom","hoop","bloom"],
+        "bonus": [""]
+    },
+    "level084": {
+        "level": "28",
+        "level_sub": "c",
+        "board": [
+            "T", "OU", "OW", "L",
+            "SP", "SC", "GR", "H",
+            "SP", "M", "B", "SH",
+            "OO", "N", "OO", "T"
+        ],
+        "list": ["boom","boot","spoon","moon","shoot","moo","boo","out","spout","scout","scowl","grout","growl","howl","owl","scowl"],
+        "bonus": [""]
+    },
+    "level085": {
+        "level": "29",
+        "level_sub": "a",
+        "letter_sounds": "hard/soft c",
+        "board": [
+            "C", "AVE", "ONE", "ANE",
+            "O", "AME", "C", "APE",
+            "P", "G", "ASH", "B",
+            "U", "E", "U", "D"
+        ],
+        "list": ["cog","cash","came","cave","cone","cane","peg","pug","game","cape","bash","cop","bud","dash","gash"],
+        "bonus": [""]
+    },
+    "level086": {
+        "level": "29",
+        "level_sub": "b",
+        "board": [
+            "ICE", "N", "PL", "ACE",
+            "M", "TU", "BR", "L",
+            "BR", "PL", "R", "TR",
+            "ACE", "TR", "F", "ACE"
+        ],
+        "list": ["trace","race","ace","face","place","brace","ice","mice","nice","lace"],
+        "bonus": [""]
+    },
+    "level087": {
+        "level": "29",
+        "level_sub": "c",
+        "board": [
+            "TW", "M", "PL", "TR",
+            "TR", "ICE", "ACE", "BR",
+            "AME", "C", "ASH", "L",
+            "AVE", "ARD", "APE", "C"
+        ],
+        "list": ["trace","lace","brace","came","place","cave","twice","card","mice","cash","cape"],
+        "bonus": [""]
+    },
+    "level088": {
+        "level": "30",
+        "level_sub": "a",
+        "letter_sounds": "hard/soft g",
+        "board": [
+            "G", "OT", "ULF", "G",
+            "AVE", "ALE", "OSH", "US",
+            "G", "ATE", "G", "UM",
+            "G", "AME", "OB", "UST"
+        ],
+        "list": ["got","gulf","gave","gosh","gale","gus","gate","game","gob","gum","gust"],
+        "bonus": [""]
+    },
+    "level089": {
+        "level": "30",
+        "level_sub": "b",
+        "board": [
+            "ST", "P", "H", "G",
+            "C", "AGE", "UGE", "Y",
+            "W", "R", "E", "M",
+            "A", "G", "ER", "G"
+        ],
+        "list": ["gem","rage","wage","page","huge","cage","gym","age","germ","stage"],
+        "bonus": [""]
+    },
+    "level090": {
+        "level": "30",
+        "level_sub": "c",
+        "board": [
+            "G", "AVE", "C", "P",
+            "E", "ATE", "ST", "AGE",
+            "M", "U", "T", "G",
+            "G", "O", "SH", "A"
+        ],
+        "list": ["gave","gate","cage","page","stage","gage","gash","gosh","gust","gem","got"],
+        "bonus": [""]
+    },
+    "level091": {
+        "level": "31",
+        "level_sub": "a",
+        "letter_sounds": "aw",
+        "board": [
+            "FL", "DR", "R", "PR",
+            "CL", "AW", "J", "AW",
+            "L", "P", "TH", "N",
+            "AW", "N", "AW", "Y"
+        ],
+        "list": ["law","thaw","jaw","claw","draw","flaw","lawn","pawm","yawn","raw","paw","prawn"],
+        "bonus": [""]
+    },
+    "level092": {
+        "level": "31",
+        "level_sub": "b",
+        "board": [
+            "SH", "DR", "BR", "AW",
+            "B", "AW", "CR", "DR",
+            "DR", "D", "L", "AW",
+            "PR", "AW", "N", "L"
+        ],
+        "list": ["law","draw","lawn","drawn","dawn","prawn","bawl","shawl","drawl","brawl","crawl"],
+        "bonus": [""]
+    },
+    "level093": {
+        "level": "31",
+        "level_sub": "c",
+        "board": [
+            "D", "AW", "N", "OO",
+            "DR", "P", "L", "M",
+            "S", "OU", "F", "OW",
+            "ND", "GR", "H", "SC"
+        ],
+        "list": ["owl","fowl","howl","plow","pound","ground","sound","dawn","draw","pawn","paw","law","lawn","moon","found","hound","how","moo"],
+        "bonus": [""]
+    },
+    "level094": {
+        "level": "32",
+        "level_sub": "a",
+        "letter_sounds": "au",
+        "board": [
+            "P", "S", "M", "AU",
+            "H", "AU", "L", "P",
+            "G", "F", "LT", "V",
+            "FL", "AU", "NT", "AU"
+        ],
+        "list": ["paul","saul","haul","maul","flaunt","gaunt","taut","fault","vault"],
+        "bonus": [""]
+    },
+    "level095": {
+        "level": "32",
+        "level_sub": "b",
+        "board": [
+            "P", "H", "AW", "L",
+            "S", "AU", "P", "D",
+            "M", "L", "AW", "N",
+            "AU", "PR", "DR", "Y"
+        ],
+        "list": ["lawn","yawn","draw","haw","paw","law","drawn","paul","haul","Saul","pawn","prawn","dawn","maul"],
+        "bonus": [""]
+    },
+    "level096": {
+        "level": "32",
+        "level_sub": "c",
+        "board": [
+            "FL", "AU", "AW", "CL",
+            "G", "NT", "S", "DR",
+            "M", "OU", "T", "G",
+            "TH", "C", "OW", "N"
+        ],
+        "list": ["saw","claw","draw","flaunt","gaunt","count","mount","mouth","south","cow","town","gown"],
+        "bonus": [""]
+    },
+    "level097": {
+        "level": "33",
+        "level_sub": "a",
+        "letter_sounds": "oi/oy",
+        "board": [
+            "F", "T", "S", "OI",
+            "B", "OI", "L", "BR",
+            "J", "H", "NT", "OI",
+            "M", "OI", "ST", "SP"
+        ],
+        "list": ["foil","boil","oil","toil","soil","spoil","broil","joint","moist","hoist"],
+        "bonus": [""]
+    },
+    "level098": {
+        "level": "33",
+        "level_sub": "b",
+        "board": [
+            "L", "OI", "C", "P",
+            "OI", "J", "OI", "OI",
+            "N", "ST", "N", "NT",
+            "M", "OI", "J", "OI"
+        ],
+        "list": ["coil","moist","loin","joist","point","join","joint","coin"],
+        "bonus": [""]
+    },
+    "level099": {
+        "level": "33",
+        "level_sub": "c",
+        "board": [
+            "F", "OI", "L", "J",
+            "SP", "S", "OI", "N",
+            "T", "OY", "B", "C",
+            "R", "J", "OY", "S"
+        ],
+        "list": ["boil","coil","foil","oil","soil","spoil","loin","join","coin","toy","roy","joy","boy","coy","soy"],
+        "bonus": [""]
+    }
+}   
